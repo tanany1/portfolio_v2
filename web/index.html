@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <base href="$FLUTTER_BASE_HREF" />
+
+        <meta charset="UTF-8" />
+        <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
+        <meta name="description" content="Ahmed Mohamed Ali - Flutter & Cross-Platform Mobile Engineer Portfolio" />
+
+        <!-- iOS meta tags & icons -->
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <meta name="apple-mobile-web-app-title" content="Ahmed Mohamed Ali" />
+        <link rel="apple-touch-icon" href="icons/Icon-192.png" />
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="favicon.png" />
+
+        <title>Ahmed Mohamed Ali</title>
+        <link rel="manifest" href="manifest.json" />
+
+        <style>
+            body {
+                margin: 0;
+                background-color: #0B0F19;
+            }
+            .container {
+                margin: 0;
+                position: absolute;
+                width: 100vw;
+                height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #0B0F19;
+            }
+            .loader {
+                height: 30vh;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <img class="loader" src="assets/loading.gif" />
+        </div>
+        <script src="flutter_bootstrap.js" async></script>
+        <script>
+            window.addEventListener('flutter-first-frame', function () {
+                var el = document.getElementsByClassName('container')[0];
+                if (el) el.remove();
+            });
+        </script>
+    </body>
+</html>
