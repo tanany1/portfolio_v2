@@ -2,7 +2,7 @@ abstract class AppStrings {
   static const String developerName = 'Ahmed Mohamed Ali';
   static const String helloIM = 'Hello, i’m';
   static const String introMsg =
-      "Flutter developer with +1 years of experience. I have completed many projects that prove my ability to provide creative and high-quality solutions.";
+      "Flutter developer with +2 years of experience. I have completed many projects that prove my ability to provide creative and high-quality solutions.";
   static String aboutMeMsg =
       "I'm a Passionate Flutter Developer with a strong foundation in cross-platform mobile app development for Android and iOS. Skilled in writing clean, maintainable code, implementing modern UI/UX designs, and integrating backend services using Firebase and REST APIs. Proficient in state management, local storage, and Clean Architecture. Seeking opportunities to contribute to dynamic and impactful mobile applications.";
   static const String numOfExperience = '1+';

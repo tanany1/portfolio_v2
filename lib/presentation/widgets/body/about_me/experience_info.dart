@@ -15,7 +15,7 @@ class ExperienceInfo extends StatelessWidget {
 
     final stats = [
       _StatItem(
-        number: '1+',
+        number: '2+',
         label: 'Years Experience',
         subtitle: 'Flutter & Dart Specialist',
         icon: Icons.timeline_rounded,
