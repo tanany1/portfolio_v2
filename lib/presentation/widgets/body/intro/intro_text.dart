@@ -19,40 +19,40 @@ class IntroText extends StatelessWidget {
           isMobile ? CrossAxisAlignment.center : CrossAxisAlignment.start,
       children: [
         // Available for work pill
-        Container(
-          padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 6),
-          decoration: BoxDecoration(
-            color: AppColors.success.withOpacity(0.12),
-            borderRadius: BorderRadius.circular(30),
-            border: Border.all(
-              color: AppColors.success.withOpacity(0.4),
-              width: 1,
-            ),
-          ),
-          child: Row(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              Container(
-                width: 8,
-                height: 8,
-                decoration: const BoxDecoration(
-                  color: AppColors.success,
-                  shape: BoxShape.circle,
-                ),
-              ),
-              const SizedBox(width: 8),
-              Text(
-                'Available for New Opportunities',
-                style: AppStyles.s12.copyWith(
-                  color: AppColors.success,
-                  fontWeight: FontWeight.w600,
-                  letterSpacing: 0.5,
-                ),
-              ),
-            ],
-          ),
-        ),
-        const SizedBox(height: 16),
+        // Container(
+        //   padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 6),
+        //   decoration: BoxDecoration(
+        //     color: AppColors.success.withOpacity(0.12),
+        //     borderRadius: BorderRadius.circular(30),
+        //     border: Border.all(
+        //       color: AppColors.success.withOpacity(0.4),
+        //       width: 1,
+        //     ),
+        //   ),
+        //   child: Row(
+        //     mainAxisSize: MainAxisSize.min,
+        //     children: [
+        //       Container(
+        //         width: 8,
+        //         height: 8,
+        //         decoration: const BoxDecoration(
+        //           color: AppColors.success,
+        //           shape: BoxShape.circle,
+        //         ),
+        //       ),
+        //       const SizedBox(width: 8),
+        //       Text(
+        //         'Available for New Opportunities',
+        //         style: AppStyles.s12.copyWith(
+        //           color: AppColors.success,
+        //           fontWeight: FontWeight.w600,
+        //           letterSpacing: 0.5,
+        //         ),
+        //       ),
+        //     ],
+        //   ),
+        // ),
+        // const SizedBox(height: 16),
         Text(
           '${AppStrings.helloIM} 👋',
           style: isMobile
