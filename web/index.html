@@ -8,6 +8,7 @@
         <meta name="description" content="Ahmed Mohamed Ali - Flutter & Cross-Platform Mobile Engineer Portfolio" />
 
         <!-- iOS meta tags & icons -->
+        <meta name="mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
         <meta name="apple-mobile-web-app-title" content="Ahmed Mohamed Ali" />
@@ -18,6 +19,13 @@
 
         <title>Ahmed Mohamed Ali</title>
         <link rel="manifest" href="manifest.json" />
+
+        <script>
+            // If accidentally accessed via /web/ or /web/index.html on GitHub Pages, redirect to root
+            if (window.location.pathname.includes('/web/')) {
+                window.location.replace(window.location.pathname.replace(/\/web\/?(index\.html)?$/, '/') + window.location.search + window.location.hash);
+            }
+        </script>
 
         <style>
             body {
